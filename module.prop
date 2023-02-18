@@ -1,7 +1,6 @@
-id=MMT-Ex
-name=Magisk Module Template Extended
-version=v2.0
-versionCode=10
-author=Zackptg5
-description=Magisk Module Template Extended
-updateJson=https://raw.githubusercontent.com/Zackptg5/MMT-Extended/master/update.json
+id=FMApp_ginkgo_port
+name=FM Radio app for Ginkgo (A13)
+version=v1.0
+versionCode=01
+author=Flopster101
+description=FM Radio app extracted from RiceDroid 13.0, build 202301150203. Meant for use in ProjectElixir 3.x.

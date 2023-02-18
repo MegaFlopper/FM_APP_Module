@@ -57,6 +57,11 @@ set_permissions() {
   
   # set_perm $MODPATH/system/lib/libart.so 0 0 0644
   # set_perm /data/local/tmp/file.txt 0 0 644
+  set_perm_recursive $MODPATH/system/system_ext/app/FM2 0 0 0755 0644
+  set_perm $MODPATH/system/etc/permissions/qcom.fmradio.xml 0 0 0644
+  set_perm_recursive $MODPATH/system/framework 0 0 0755 0644
+  set_perm_recursive $MODPATH/system/system_ext/lib 0 0 0755 0644
+  set_perm_recursive $MODPATH/system/system_ext/lib64 0 0 0755 0644
 }
 
 ##########################################################################################
